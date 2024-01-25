@@ -1,6 +1,14 @@
 .leftContent{
   display: flex;
-  flex-direction: column;
-  flex: 1;
+  flex: 6;
   gap: 10px;
+  height: 100vh;
+  .rightSide{
+    width: 75%;
+    background-color: #F8FAFC;
+  }
+  .leftSide{
+    width: 25%;
+    height: 100%;
+  }
 }

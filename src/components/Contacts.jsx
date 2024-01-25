@@ -37,13 +37,14 @@ function Contacts() {
       </div>
       {contacts &&
         contacts.map((item, index) => (
-          <div className="contact-item" key={index}>
-            <img src={item.icon} alt={item.name} />
-            <p>{item.name}</p>
-          </div>
+          <div className='contactcontainer'>
+            <div className="contact-item" key={index}>
+              <img src={item.icon} alt={item.name} />
+              <p>{item.name}</p>
+            </div>
+          </div>  
         ))}
     </div>
   );
 }
-
 export default Contacts

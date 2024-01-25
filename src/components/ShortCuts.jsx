@@ -22,6 +22,7 @@ function ShortCuts() {
       <div className="ShortCutItems">
         <div className="heading">
           <p>shortcuts</p>
+          {/* {showSeeAll && <p>See All</p>} */}
         </div>
         {shortCutItems &&
           shortCutItems.map((item, index) => (
